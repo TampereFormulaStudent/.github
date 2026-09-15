@@ -9,6 +9,7 @@
         Example commit message: "dev-apiReformat: Added new paths to router"
 - Make sure your .gitignore file is in order to not push anything extra to the repositories!
 - Don't leak .env files with sensitive info! Backup to OneDrive and encrypt it if necessary.
+- INCLUDE BUILDING AND RUNNING INSTRUCTIONS
 
 ## Further reading and basics of version control
 https://tuni.sharepoint.com/:w:/r/sites/TG-tampereuasmotorsport/Jaetut%20asiakirjat/Dept.%20Electrics%20and%20Embedded%20Systems/TFS27/Embedded%20systems/Coding%20rules%20of%20engangement.docx?d=w850cf0e830dd4c9fa19bfd258565cf98&csf=1&web=1&e=eHzX61
