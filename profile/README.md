@@ -56,7 +56,7 @@ Add the path of your ucrt64 `bin` folder to the Windows `PATH` environment varia
 - In the ```Project Manager``` tab, give your project a name and change ```Toolchain / IDE``` to **CMake**.
 - Click on ```GENERATE CODE```.
 
-#### 6. Setup VSCode
+#### 6. Setup VSCode:
 - Open the generated project folder in VSCode.
 - The following popup should appear, click `Yes`.
 
