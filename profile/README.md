@@ -22,7 +22,7 @@ Once installed, install the following extensions:
 - ```CMake Tools```
 - ```C/C++ Extension Pack```
 
-#### 2. Install [STM32CubeMX](https://www.st.com/cloudfront/publish/stm32cubemx-win-v6-18-1/6.18.1/en/SetupSTM32CubeMX-6.18.1-Win-x86_64.zip?Expires=1790273435&Signature=WgbzfcIwdn0dsPMACyo3QYAJ3swFjcp5Gs9VHxXj8eg28wlbwGi~tO4nIkzhIOx5AAodxA~lRkNfrYBVV3YWCEEo2nQ3xm4s7Twe9ZHOV7H1WnQHsWe4A8rFB8BXu8A~L7JeZCSwTYBPhmj31dvxwrQx9U-Esol4SuCqNIGU87aj4dbSuo7W8mU7vVN1pRcksjoc-gPSMrhUNPY13Y47F~ly2mdda3dje7O2DlU696CfxtEXI~sdAcUpo1vc1g8JJ6xggfrOomjxJ3I6HlhK5FovSpKx1fKUFau-8ffUz~oxFKTn-14bLpXyoz2AcO8lTn4hIMelC8CYa9AJiXoWMQ__&Key-Pair-Id=K27828FUHOZJS8) and [STM32CubeProgrammer](https://www.st.com/cloudfront/publish/stm32cubeprg-win64-v2-23-0/2.23.0/en/SetupSTM32CubeProgrammer_win64.zip?Expires=1790273585&Signature=L5rNtcHHn~dh-S0SUZkv8TNDjgWo12aJdbQqVt9j-pha58GOvjlJnzGLL~qjOB6S2JVvobaz~Rk676wlmq3hZxeXkSnFj4g5cFrTC9c8TlBhxkJi-g~HDTFiKYAbFPYNQEvPLvfsieZ9lUPUHDdyDRgMnZ~DY6tNC2ukDRaSI5SNYpkbXP60nlYzaE7A7PeO1HSjTbEHh8bU8rYu8OXhpSCRbTZdjxOGXdl94zZZ3SkGhG3hVpTwTVwtjA-CY6EbEwO2EkjlqK1eHznfHNdEYAP1kFsu-PBDRuV6stFk3GDUzCXOv0JLKZr8gG953VN5s75P65No2IjQ2Do7xb6Kfw__&Key-Pair-Id=K27828FUHOZJS8).
+#### 2. Install [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html#section-get-software-table) and [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html#section-get-software-table).
 
 #### 3. Install Ninja and CMake:
 Paste the following into Command Prompt:
