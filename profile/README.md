@@ -71,7 +71,8 @@ Add the path of your ucrt64 `bin` folder to the Windows `PATH` environment varia
 #### Know your distro
 Keep in mind, these following instructions are written from an experience with an Arch based distro. Consult your package manager, flatpak and any other
 distribution channels in case package names are not found.
-TM32CubeIDE for Visual Studio Code
+
+
 Avoid AUR, Snap and any other insecure non-sandboxed package repository unless necessary. Make sure to read PKGBUILDS for those.
 
 #### 1. Install Code - OSS
