@@ -100,3 +100,12 @@ Use these commands
 - ```./SetupSTM32CubeProgrammer-2.23.0.linux```
 
 And boom. It should start the install process.
+
+### 3. Install all other dependencies
+
+- ```sudo pacman -S cmake```
+//Often preincluded for kernel compilation, just for brevity.
+- ```sudo pacman -S mingw-w64-gcc```
+- ```sudo pacman -S ninja```
+
+Steps 4, 5, and 6 are the same as in Windows.
