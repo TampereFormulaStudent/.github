@@ -108,4 +108,4 @@ And boom. It should start the install process.
 - ```sudo pacman -S mingw-w64-gcc```
 - ```sudo pacman -S ninja```
 
-Steps 4, 5, and 6 are the same as in Windows.
+Steps 5 and 6 are the same as in Windows.
