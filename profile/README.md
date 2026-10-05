@@ -66,4 +66,36 @@ Add the path of your ucrt64 `bin` folder to the Windows `PATH` environment varia
 - You should now be able to build the binary. Click on the ```Build``` button on the bottom left of the window.
 
 ### Linux
-to be continued
+
+
+#### Know your distro
+Keep in mind, these following instructions are written from an experience with an Arch based distro. Consult your package manager, flatpak and any other
+distribution channels in case package names are not found.
+TM32CubeIDE for Visual Studio Code
+Avoid AUR, Snap and any other insecure non-sandboxed package repository unless necessary. Make sure to read PKGBUILDS for those.
+
+#### 1. Install Code - OSS
+
+(NOTE: You can also install Microsoft's Vscode, but doesn't play nice and extensions often break.)
+
+- ```sudo pacman -S code```
+
+#### 2. Install STM32CubeMX
+
+This will need flatpak and manual compiling with a script.
+
+- ```flatpak install flathub com.st.STM32CubeMX```
+
+Then download generic linux version of STM32 Cube programmer from their website.
+<img width="1326" height="390" alt="image" src="https://github.com/user-attachments/assets/2372b5a1-bdf5-4f16-8dd6-34cb08e8c1b6" />
+
+Unpack and navigate to the folder...
+<img width="941" height="522" alt="image" src="https://github.com/user-attachments/assets/af03dbb6-e408-4e3a-91ed-0add821d4693" />
+
+Use these commands
+
+- ```chmod +x SetupSTM32CubeProgrammer-2.23.0.linux```
+
+- ```./SetupSTM32CubeProgrammer-2.23.0.linux```
+
+And boom. It should start the install process.
