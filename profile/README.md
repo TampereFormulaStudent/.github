@@ -81,6 +81,25 @@ Avoid AUR, Snap and any other insecure non-sandboxed package repository unless n
 
 - ```sudo pacman -S code```
 
+Then to install marketplace extensions from the official market place like these...
+
+- ```STM32CubeIDE for Visual Studio Code```
+- ```CMake Tools```
+- ```C/C++ Extension Pack```
+
+You need to install a hook that will allow Vscode extensions to the open-source version
+https://aur.archlinux.org/packages/code-marketplace
+
+- ```yay -S code-marketplace```
+
+Be careful with AUR packages. They may be susceptible to repository attacks. Make sure to read the PKGBUILD for anything suspicious
+and don't install orphaned packages. Code-marketplace so far has been clean.
+
+https://github.com/coder/code-marketplace
+
+Also a viable alternative.
+
+
 #### 2. Install STM32CubeMX
 
 This will need flatpak and manual compiling with a script.
